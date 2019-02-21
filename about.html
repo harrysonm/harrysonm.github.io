@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kenyans Who Design</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=LATO:400,700" rel="stylesheet">
+        <link rel="stylesheet" href="css/uikit.min.css" />
+        <link rel="stylesheet" href="css/main.css" />
+        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
+    </head>
+    <body>
+        <div class="uk-container uk-container-expand uk-background-default" uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+                <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+                    <div class="uk-navbar-left">
+                        <a class="uk-logo uk-text-bold uk-navbar-item uk-padding-remove uk-text-capitalize uk-text-large" href="index.html">KWD</a>
+                    </div>
+                    <div class="uk-navbar-right">
+                        <div class="uk-navbar-item">
+                            <ul class="uk-navbar-nav">
+                                <li><a class="uk-text-capitalize uk-text-large" href="about.html">About</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="uk-container uk-container-large">
+        
+            <div class="uk-width-auto uk-margin-large-top uk-margin-large-bottom uk-text-center">
+                <h1 class="uk-margin-header-bottom uk-text-uppercase uk-text-bold">About this Project</h1>
+                <a class="uk-text-capitalize uk-margin-medium uk-button uk-margin-small-right uk-button-primary uk-border-rounded" href="#join" uk-toggle><span class="uk-margin-small-right" uk-icon="icon: user"></span>Join Us</a>
+                <a class="uk-text-capitalize uk-margin-medium uk-button hm-button-secondary uk-border-rounded" href="#join" uk-toggle><span class="uk-margin-small-right" uk-icon="icon: social"></span>Share</a>
+            </div>
+
+            <div class="uk-margin-medium-top uk-container uk-container-xsmall">
+                <p>Kenyans Who Design is a directory of thriving Kenyans in the design industry. Our mission is to provide a space to find outstanding people to follow, look for a mentor, make new friends, or discover talented individuals to join your team.</p>
+                <h2>Why Kenyans  Who Design?</h2>
+                <p>Latinx is the gender-neutral alternative to Latino and Latina. It aims to move beyond gender binaries and is inclusive of people who are trans, queer, agender, non-binary, gender non-conforming or gender fluid.</p>
+                <h2>Other Sites like this</h2>
+                <p>We recommend checking out these sites that share a similar purpose.</p>
+                <div>
+                    <header><a href="">Women Who Design</a></header>
+                    <p class="uk-margin-small-top">A Twitter directory of accomplished women in the design industry. Latinxs was inspired by this site!</p>
+                    <header><a href="">Blacks Who Design</a></header>
+                    <p class="uk-margin-small-top">A directory of blacks who design</p>
+                    <header><a href="">Latinx Who Design</a></header>
+                    <p class="uk-margin-small-top">A directory of latinos who design by Pablo Stanley. (Inspiration for this site)</p>
+                </div>
+                <h2>Opt out</h2>
+                <p>If you've been featured in the directory and you'd rather not be, please send a DM to @BlacksWhoDesign on Twitter and you will be removed.</p>
+                <p><a href="index.html"><span uk-icon="icon: arrow-left; ratio: 2"></span> Back to Directory</a></p>
+            </div>
+        </div>
+
+        <!-- Edit profile modal starts here -->
+        <div id="join" uk-modal>
+            <div class="uk-modal-dialog uk-modal-body uk-border-rounded">
+                <button class="uk-modal-close-default" type="button" uk-close></button>
+                <form class="uk-grid-medium" uk-grid>
+                    <div class="uk-width-1-1">
+                        <legend class="uk-legend">Welcome to the community</legend>
+                        <p class="uk-text-meta">We review all applications before publishing new members to the website. This is done to maintain the quality & professionalism of the platform. You will receive an email notification once approved.</p>
+                    </div>
+                    <div class="uk-width-1-1">
+                        <div class="uk-margin uk-grid-small uk-flex-middle" uk-grid>
+                            <div class="uk-width-auto">
+                                <img class="uk-box-shadow-small" width="150" height="150" src="images/2.png">
+                            </div>
+                            <div class="uk-width-expand">
+                                <header>Upload a decent profile picture</header>
+                                <small>The image should be at least 630 by 480 pixels</small>
+                                <div class="js-upload uk-width-1-1 uk-margin-small-top" uk-form-custom>
+                                    <input type="file" multiple>
+                                    <button class="uk-button uk-button-small uk-button-primary uk-border-rounded" type="button" tabindex="-1">Select</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-width-1-2">
+                        <label class="uk-form-label">Your full name</label>
+                        <input class="uk-input" type="text" placeholder="Enter your name">
+                    </div>
+                    <div class="uk-width-1-2">
+                        <label class="uk-form-label">Current Role</label>
+                        <input class="uk-input" type="text" placeholder="Your current role">
+                    </div>
+                    <div class="uk-width-1-1">
+                        <label class="uk-form-label">Top Skills</label> — <small>Add a maximum of three (No tools e.g sketch, adobe etc.)</small>
+                        <input class="uk-input" type="text" placeholder="e.g Product Design, Illustration, UX design">
+                    </div>
+                    <div class="uk-width-1-2">
+                        <label class="uk-form-label">Website</label>
+                        <input class="uk-input" type="text" placeholder="Your website if available">
+                    </div>
+                    <div class="uk-width-1-2">
+                        <label class="uk-form-label">LinkedIn</label>
+                        <input class="uk-input" type="text" placeholder="Your linkedIn Profile">
+                    </div>
+                    <div class="uk-width-1-2">
+                        <label class="uk-form-label">Twitter</label>
+                        <input class="uk-input" type="text" placeholder="Your Twitter Profile">
+                    </div>
+                    <div class="uk-width-1-2">
+                        <label class="uk-form-label">Dribble</label>
+                        <input class="uk-input" type="text" placeholder="Your dribbble Profile">
+                    </div>
+                    <div class="uk-width-1-2">
+                        <label class="uk-form-label">Behance</label>
+                        <input class="uk-input" type="text" placeholder="Your Behance Profile">
+                    </div>
+                    <div class="uk-width-1-2">
+                        <label class="uk-form-label">Instagram</label>
+                        <input class="uk-input" type="text" placeholder="Your Instagram Profile">
+                    </div>
+                    <div class="uk-width-1-1">
+                        <label class="uk-form-label">Bio</label>
+                        <textarea class="uk-textarea" rows="5" placeholder="A little about you"></textarea>
+                    </div>
+                    <div class="uk-width-1-1 uk-text-right">
+                        <button class="uk-button uk-button-default uk-modal-close uk-margin-small-right" type="button">Cancel</button>
+                        <button class="uk-button uk-button-primary" type="button">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <div class="uk-margin-xlarge-top uk-margin-xlarge-bottom">
+            <div class="uk-width-auto uk-text-center">
+                <a class="logo uk-link-reset uk-text-capitalize uk-text-large uk-text-large" href="#">KWD</a>
+                <p class="uk-text-meta">Built & Maintained  with <span uk-icon="heart"></span> by
+ <a target="_blank" href="http://harrisonmaina.com">Harrison<a></p>
+            </div>
+        </div>
+    </body>
+</html>
